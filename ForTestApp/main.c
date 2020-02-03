@@ -55,14 +55,43 @@ int main(void)
 
     //break를 사용한 반복문 종료 p.171
     
-    int i, sum=0;
+    /*int i, sum=0;
     for (i = 1; i <= 10; i++)
     {
         sum = sum + i;
         if (sum > 30) break;
     }
     printf("누적한 값 : %d\n", sum);
-    printf("마지막으로 더한 값 : %d\n", i);
+    printf("마지막으로 더한 값 : %d\n", i);*/
+
+    int a, b;
+
+    for (a = 0; a < 5; a++)
+    {
+        for (b = 0; b <=a; b++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    printf("\n");
+
+    int i, j, k;
+
+    for (i = 0; i < 5; i++)
+    {
+        for (k = 5 - i; k > 0; k--)
+        {
+            printf(" ");
+        }
+        for (j = 0; j<=i+i ; j++)
+        {
+            printf("*");
+        }
+        
+        printf("\n");
+        
+    }
     
 
 	system("pause");
