@@ -108,7 +108,7 @@ int main(void)
     a.next = &b;
     b.next = &c;
 
-    printf("head->num : %d\n", head->num);
+    printf("head->num : %d\n", (*head).num);
     printf("head->next->num : %d\n", head->next->num);
     printf("head->next->next->num : %d", head->next->next->num);
     return 0;
