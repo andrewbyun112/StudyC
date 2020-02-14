@@ -71,7 +71,7 @@ void write_json(void) {
     json_array_append_string(actors, "Michael Caine");
     json_array_append_string(actors, "Jessica Chastian");
 
-    json_object_set_boolean(rootObject, "KoeaReleas", 1);
+    json_object_set_boolean(rootObject, "KoreaReleas", 1);
 
 
     json_serialize_to_file_pretty(rootValue, "saved.json");
